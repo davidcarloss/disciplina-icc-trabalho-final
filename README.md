@@ -1,1 +1,1 @@
-# disciplina-icc-trabalho-final
+Projeto final da disciplina de Introdução à Ciência da Computação
