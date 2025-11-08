@@ -83,22 +83,22 @@ def transformar_df():
     renomeia_colunas()
     converte_dados()
 
-def operacao_estatisticas_descritivas(_df_executar_operacao):
+def operacao_estatisticas_descritivas(_dados_executar_operacao):
     pass
 
-def operacao_boxplot(_df_executar_operacao):
+def operacao_boxplot(_dados_executar_operacao):
     pass
 
-def operacao_serie_temporal(_df_executar_operacao):
+def operacao_serie_temporal(_dados_executar_operacao):
     pass
 
-def operacao_tabela_frequencias(_df_executar_operacao):
+def operacao_tabela_frequencias(_dados_executar_operacao):
     pass
 
-def operacao_grafico_barras(_df_executar_operacao):
+def operacao_grafico_barras(_dados_executar_operacao):
     pass
 
-def menu_operacoes(_nivel_operacao, df_executar_operacao):
+def menu_operacoes(_nivel_operacao, dados_executar_operacao):
     print("\nEscolha a operação a executar:")
 
     operacoes_disponiveis = next((configuracao for opcao, configuracao in opcoes_menu_principal if opcao == _nivel_operacao))["operacoes_disponiveis"]
@@ -113,7 +113,7 @@ def menu_operacoes(_nivel_operacao, df_executar_operacao):
         print("\n[Aviso] Inválida.")
         menu()
     else:
-        configuracao_opcao_escolhida["funcao"](df_executar_operacao)
+        configuracao_opcao_escolhida["funcao"](dados_executar_operacao)
 
 def criterio_selecao_opcao1():
     print("Digite o Ano (no formato YYYY)")
@@ -160,24 +160,24 @@ opcoes_criterio_selecao = [
 ]
 
 def criterio_agrupamento_opcao1():
-    pd_serie = df.groupby(df["data"].dt.to_period("M"))["valor"].sum()
+    serie_executar_operacao = df.groupby(df["data"].dt.to_period("M"))["valor"].sum()
 
-    menu_operacoes("3", pd_serie)
+    menu_operacoes("3", serie_executar_operacao)
 
 def criterio_agrupamento_opcao2():
-    pd_serie = df.explode("categorias", ignore_index=True).groupby("categorias")["valor"].sum()
+    serie_executar_operacao = df.explode("categoria", ignore_index=True).groupby("categoria")["valor"].sum()
 
-    menu_operacoes("3", pd_serie)
+    menu_operacoes("3", serie_executar_operacao)
 
 def criterio_agrupamento_opcao3():
-    pd_serie = df.groupby("fonte_pagamento")["valor"].sum()
+    serie_executar_operacao = df.groupby("fonte_pagamento")["valor"].sum()
 
-    menu_operacoes("3", pd_serie)
+    menu_operacoes("3", serie_executar_operacao)
 
 def criterio_agrupamento_opcao4():
-    pd_serie = df.groupby("forma_pagamento")["valor"].sum()
+    serie_executar_operacao = df.groupby("forma_pagamento")["valor"].sum()
 
-    menu_operacoes("3", pd_serie)
+    menu_operacoes("3", serie_executar_operacao)
 
 opcoes_criterio_agrupamento = [
     ("1", { "texto_exibicao": "Ano-mês", "funcao": criterio_agrupamento_opcao1 }),
