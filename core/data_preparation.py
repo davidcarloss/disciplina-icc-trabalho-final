@@ -2,6 +2,7 @@ import pandas as pd
 
 from common.df import df
 
+# Dicionário que especifica as colunas esperadas, e seus respectivos dtypes permitidos, do arquivo CSV
 colunas_tipos_esperados_df = {
     "Gasto": ["object"],
     "Categorias": ["object"],
@@ -12,6 +13,8 @@ colunas_tipos_esperados_df = {
 }
 
 def validar_padrao_df():
+    
+    # Valida se as colunas são as esperadas
     def colunas_validas():
         valido = True
 
@@ -28,6 +31,7 @@ def validar_padrao_df():
 
         return valido
 
+    # Valida se os tipos são os permitidos
     def tipos_validos():
         valido = True
 
@@ -41,6 +45,7 @@ def validar_padrao_df():
 
         return valido
 
+    # É válido somente se todas as funções de validação 'passarem'
     df_valido = all([colunas_validas(), tipos_validos()])
 
     if not df_valido:
@@ -50,6 +55,8 @@ def validar_padrao_df():
         print("DataFrame válido.")
 
 def transformar_df():
+    
+    # Renomeia as colunas do DF para melhor manipulação 
     def renomeia_colunas():
         dicionario_mapeamento = {
             "Gasto": "gasto",
@@ -62,12 +69,18 @@ def transformar_df():
 
         df.rename(columns=dicionario_mapeamento, inplace=True)
 
+    # Conversão de dtypes das colunas
     def converte_dados():
+        
+        # Transforma strings de formato "Categoria1, Categoria2, ..., CategoriaN" em uma lista ["Categoria1", "Categoria2", ..., "CategoriaN"].
+        # Exemplo: "Transporte, Uber" em ["Transporte", "Uber"]
         df["categoria"] = df["categoria"].apply(lambda e: [s.strip() for s in e.split(",")])
         
+        # Caso coluna Valor seja string (assume padrão brasilileiro), converte para float ou int
         if df["valor"].dtype == "object":
             df["valor"] = pd.to_numeric(df["valor"].str.strip().str.replace("R$", "").str.replace(".", "").str.replace(",", "."), errors="coerce")
 
+        # Caso coluna Data seja string, converte para datetime. Aceita datas no formato DD/MM/YYYY e MM/DD/YYYY
         if df["data"].dtype == "object":
             data_convertida_dia_primeiro = pd.to_datetime(df["data"], dayfirst=True, errors="coerce")
             data_convertida_mes_primeiro = pd.to_datetime(df["data"], dayfirst=False, errors="coerce")

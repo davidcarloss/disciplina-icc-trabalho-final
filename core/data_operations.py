@@ -24,7 +24,7 @@ def operacao_estatisticas_descritivas(_dados_executar_operacao):
 
     print(serie_estatisticas_descritivas_completa)
 
-    from core.menus import menu
+    from core.menus import menu # Lazy Import necessário para evitar Circular Import
     menu()
 
 def operacao_boxplot(_dados_executar_operacao):
@@ -34,12 +34,12 @@ def operacao_boxplot(_dados_executar_operacao):
     print("\nFeche o gráfico em aberto para voltar ao menu.")
     plt.show()
     
-    from core.menus import menu
+    from core.menus import menu # Lazy Import necessário para evitar Circular Import
     menu()
 
 def operacao_serie_temporal(_dados_executar_operacao):
     _dados_executar_operacao = _dados_executar_operacao.groupby(_dados_executar_operacao["data"].dt.to_period("M"))["valor"].sum().reset_index()
-    _dados_executar_operacao["data"] = _dados_executar_operacao["data"].dt.to_timestamp() # Converte Period objects
+    _dados_executar_operacao["data"] = _dados_executar_operacao["data"].dt.to_timestamp() # Conversão necessária para datetime (seaborn não está preparado para Period Objects)
 
     sns.lineplot(data=_dados_executar_operacao, x="data", y="valor")
     plt.title("Evolução mensal do valor total")
@@ -50,7 +50,7 @@ def operacao_serie_temporal(_dados_executar_operacao):
     print("\nFeche o gráfico em aberto para voltar ao menu.")
     plt.show()
     
-    from core.menus import menu
+    from core.menus import menu # Lazy Import necessário para evitar Circular Import
     menu()
 
 def operacao_tabela_frequencias(_dados_executar_operacao):
@@ -107,7 +107,7 @@ def operacao_tabela_frequencias(_dados_executar_operacao):
 
         print(df_frequencias)
 
-    from core.menus import menu
+    from core.menus import menu # Lazy Import necessário para evitar Circular Import
     menu()
 
 def operacao_grafico_barras(_dados_executar_operacao):
@@ -120,5 +120,5 @@ def operacao_grafico_barras(_dados_executar_operacao):
     print("\nFeche o gráfico em aberto para voltar ao menu.")
     plt.show()
     
-    from core.menus import menu
+    from core.menus import menu # Lazy Import necessário para evitar Circular Import
     menu()
