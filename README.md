@@ -8,3 +8,10 @@ Instrução de execução:
 - Com o terminal de seu computador, na pasta do arquivo 'main.py', execute o comando 'python3 main.py'.
 
   (pode variar um pouco dependendo da versão do Python instalada, mas em essência é executar o arquivo 'main.py' com o python)
+
+Para referência, as versões utilizadas em desenvolvimento e testes foram:
+- Python: 3.13.9
+- Numpy: 2.3.4
+- Pandas: 2.3.3
+- Matplotlib: 3.10.7
+- Seaborn: 0.13.2
