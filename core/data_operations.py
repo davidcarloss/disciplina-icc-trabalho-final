@@ -19,7 +19,8 @@ def operacao_estatisticas_descritivas(_dados_executar_operacao):
 
     serie_estatisticas_descritivas_completa = pd.concat([
         _dados_executar_operacao.describe(include=[np.number]).rename(dicionario_mapeamento),
-        pd.Series(_dados_executar_operacao["valor"].sum(), index=["Valor total"], name="valor")
+        pd.Series(_dados_executar_operacao["valor"].sum(), index=["Valor total"], name="valor"),
+        pd.Series(_dados_executar_operacao["valor"].median(), index=["Mediana"], name="valor")
     ])
 
     print(serie_estatisticas_descritivas_completa)
