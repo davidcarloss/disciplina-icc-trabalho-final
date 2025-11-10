@@ -80,15 +80,18 @@ def transformar_df():
         if df["valor"].dtype == "object":
             df["valor"] = pd.to_numeric(df["valor"].str.strip().str.replace("R$", "").str.replace(".", "").str.replace(",", "."), errors="coerce")
 
-        # Caso coluna Data seja string, converte para datetime. Aceita datas no formato DD/MM/YYYY e MM/DD/YYYY
+        # Caso coluna Data seja string, converte para datetime
         if df["data"].dtype == "object":
-            data_convertida_dia_primeiro = pd.to_datetime(df["data"], dayfirst=True, errors="coerce")
-            data_convertida_mes_primeiro = pd.to_datetime(df["data"], dayfirst=False, errors="coerce")
+            formatos_data_aceitos = ["%d/%m/%Y", "%m/%d/%Y", "%Y/%m/%d", "%d-%m-%Y", "%m-%d-%Y", "%Y-%m-%d"] # Padrão strftime
 
-            if data_convertida_dia_primeiro.isna().sum() < data_convertida_mes_primeiro.isna().sum():
-                df["data"] = data_convertida_dia_primeiro
-            else:
-                df["data"] = data_convertida_mes_primeiro
+            mapeamento_formato_data_total_nulas = {}
 
+            for i, formato in enumerate(formatos_data_aceitos):
+                mapeamento_formato_data_total_nulas[i] = pd.to_datetime(df["data"], format=formato, errors="coerce").isna().sum()
+
+            formato_menor_total_nulas = min(mapeamento_formato_data_total_nulas, key=mapeamento_formato_data_total_nulas.get)
+
+            df["data"] = pd.to_datetime(df["data"], format=formatos_data_aceitos[formato_menor_total_nulas], errors="coerce") # Converte coluna Data com formato que teve menor total de erros         
+    
     renomeia_colunas()
     converte_dados()
