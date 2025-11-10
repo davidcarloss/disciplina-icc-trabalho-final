@@ -1,10 +1,11 @@
 from common.df import df
 from core.data_operations import operacao_estatisticas_descritivas, operacao_boxplot, operacao_serie_temporal, operacao_tabela_frequencias, operacao_grafico_barras
 
-def menu_operacoes(_nivel_operacao, dados_executar_operacao):
+# As opções do Menu Operações são de acordo com o nível selecionado do DF
+def menu_operacoes(_nivel_df, dados_executar_operacao):
     print("\nEscolha a operação a executar:")
 
-    operacoes_disponiveis = next((configuracao for opcao, configuracao in opcoes_menu_principal if opcao == _nivel_operacao))["operacoes_disponiveis"]
+    operacoes_disponiveis = next((configuracao for opcao, configuracao in opcoes_menu_principal if opcao == _nivel_df))["operacoes_disponiveis"]
     for opcao, configuracao in operacoes_disponiveis:
         print(f"{opcao}. {configuracao["texto_exibicao"]}")
 
@@ -55,6 +56,7 @@ def criterio_selecao_opcao4():
     df_executar_operacao = df[df["forma_pagamento"] == forma_pagamento_selecionada]
     menu_operacoes("2", df_executar_operacao)
 
+# Lista de opções do Submenu Seleção
 opcoes_criterio_selecao = [
     ("1", { "texto_exibicao": "Ano-mês", "funcao": criterio_selecao_opcao1 }),
     ("2", { "texto_exibicao": "Categoria", "funcao": criterio_selecao_opcao2 }),
@@ -82,6 +84,7 @@ def criterio_agrupamento_opcao4():
 
     menu_operacoes("3", serie_executar_operacao)
 
+# Lista de opções do Submenu Agrupamento
 opcoes_criterio_agrupamento = [
     ("1", { "texto_exibicao": "Ano-mês", "funcao": criterio_agrupamento_opcao1 }),
     ("2", { "texto_exibicao": "Categoria", "funcao": criterio_agrupamento_opcao2 }),
@@ -125,6 +128,7 @@ def submenu_opcao3():
 def submenu_opcao4():
     exit(0)
 
+# Lista de opções do Menu Principal. Cada opção tem um texto de exibição, a função responsável e as operações que podem ser executadas
 opcoes_menu_principal = [
     ("1", {
         "texto_exibicao": "Completo",
@@ -158,16 +162,28 @@ opcoes_menu_principal = [
 ]
 
 def menu():
-    print("\nEscolha o nível do Dataframe para executar as operações:")
+    """
+    'Nível' se refere ao subconjunto do DF:
+    - Completo sendo o DF inteiro;
+    - Selecionado sendo um "recorte" do DF com base em algum critério;
+    - Agrupado sendo uma Série da coluna Valor com base em algum critério.
+    """
+    print("\nEscolha o nível do Dataframe para aplicar as operações:")
+    
+    # Estrutura de repetição for para exibição das opções do Menu Principal
     for opcao, configuracao in opcoes_menu_principal:
         print(f"{opcao}. {configuracao["texto_exibicao"]}")
     
-    escolha_usuario = input()
+    escolha_usuario = input() # Opção escolhida pelo usuário
 
+    # Função next utilizada para 'pular' laço for após primeira ocorrência da opção escolhida. Caso não tenha ocorrência retorna None
     configuracao_opcao_escolhida = next((configuracao for opcao, configuracao in opcoes_menu_principal if opcao == escolha_usuario), None)
 
     if configuracao_opcao_escolhida == None:
         print("\n[Aviso] Inválida.")
         menu()
     else:
+        # Executa função responsável pela opção escolhida
         configuracao_opcao_escolhida["funcao"]()
+
+    # Demais Menus e Submenus implementam solução análoga
