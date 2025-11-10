@@ -76,7 +76,7 @@ def transformar_df():
         # Exemplo: "Transporte, Uber" em ["Transporte", "Uber"]
         df["categoria"] = df["categoria"].apply(lambda e: [s.strip() for s in e.split(",")])
         
-        # Caso coluna Valor seja string (assume padrão brasilileiro), converte para float ou int
+        # Caso coluna Valor seja string (assume padrão brasileiro), converte para float ou int
         if df["valor"].dtype == "object":
             df["valor"] = pd.to_numeric(df["valor"].str.strip().str.replace("R$", "").str.replace(".", "").str.replace(",", "."), errors="coerce")
 
