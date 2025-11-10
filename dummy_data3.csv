@@ -1,0 +1,501 @@
+Gasto,Categorias,Fonte Pagamento,Data,Valor,Forma Pagamento
+Corrida Uber,Transporte,104.46,10/15/2025,Caixa,Dinheiro
+Conta de luz,Moradia,124.83,07/06/2025,Itaú,Pix
+Consulta médica,Saúde,177.28,05/27/2025,Itaú,Cartão
+Aluguel,Moradia,266.61,08/28/2025,Caixa,Cartão
+Internet,Serviços,288.23,09/02/2025,Itaú,Pix
+Exame laboratorial,Saúde,208.52,09/06/2025,Caixa,Cartão
+Lavanderia,"Serviços, Saúde",299.14,07/17/2025,Caixa,Dinheiro
+Aluguel,Moradia,202.92,07/29/2025,Bradesco,Cartão
+Remédio,Saúde,190.14,06/17/2025,Caixa,Pix
+Curso online,Educação,115.32,06/21/2025,Santander,Dinheiro
+Almoço restaurante,Alimentação,114.3,07/18/2025,Caixa,Dinheiro
+Compra de livro,Educação,255.67,08/12/2025,Itaú,Cartão
+Combustível,Transporte,62.49,08/14/2025,Caixa,Pix
+Internet,Serviços,137.16,07/07/2025,Nubank,Cartão
+Corrida Uber,Transporte,173.59,05/17/2025,Caixa,Pix
+Táxi até o aeroporto,Transporte,351.76,10/07/2025,Bradesco,Pix
+Corrida Uber,"Transporte, Lazer",90.06,11/03/2025,Nubank,Pix
+Doação,Outros,77.41,09/29/2025,Bradesco,Dinheiro
+Conta de luz,Moradia,23.09,09/20/2025,Santander,Cartão
+Compra no mercado,Alimentação,288.58,09/25/2025,Caixa,Pix
+Conta de luz,Moradia,88.08,08/22/2025,Nubank,Pix
+Compra no mercado,Alimentação,70.81,09/04/2025,Caixa,Cartão
+Consulta médica,Saúde,56.67,09/17/2025,Santander,Cartão
+Táxi até o aeroporto,Transporte,131.73,08/28/2025,Nubank,Dinheiro
+Telefonia,Serviços,405.83,09/13/2025,Bradesco,Dinheiro
+Lavanderia,Serviços,251.95,10/13/2025,Bradesco,Dinheiro
+Multa,Outros,157.73,06/18/2025,Nubank,Dinheiro
+Taxa bancária,Outros,87.05,10/20/2025,Itaú,Cartão
+Assinatura streaming,"Lazer, Moradia",159.61,05/16/2025,Nubank,Pix
+Doação,Outros,55.98,10/30/2025,Itaú,Dinheiro
+Táxi até o aeroporto,Transporte,97.99,10/30/2025,Caixa,Pix
+Conta de luz,Moradia,156.46,06/20/2025,Bradesco,Pix
+Multa,Outros,205.02,07/15/2025,Nubank,Cartão
+Multa,Outros,142.04,10/28/2025,Nubank,Cartão
+Exame laboratorial,"Saúde, Outros",36.66,07/21/2025,Bradesco,Dinheiro
+Assinatura streaming,Lazer,153.81,06/29/2025,Nubank,Pix
+Remédio,Saúde,177.67,06/03/2025,Santander,Pix
+Taxa bancária,Outros,254.68,09/01/2025,Bradesco,Pix
+Condomínio,Moradia,134.4,06/01/2025,Bradesco,Dinheiro
+Passagem de ônibus,"Transporte, Lazer",124.46,10/13/2025,Nubank,Dinheiro
+Multa,Outros,247.34,06/23/2025,Nubank,Cartão
+Aluguel,Moradia,86.23,06/07/2025,Bradesco,Dinheiro
+Doação,Outros,72.64,08/10/2025,Caixa,Cartão
+Show,Lazer,202.98,09/25/2025,Caixa,Cartão
+Show,"Lazer, Outros",130.65,09/30/2025,Bradesco,Cartão
+Telefonia,Serviços,37.91,08/09/2025,Caixa,Cartão
+Mensalidade,Educação,74.19,10/02/2025,Bradesco,Dinheiro
+Jantar com amigos,Lazer,41.84,10/01/2025,Bradesco,Pix
+Telefonia,Serviços,288.98,09/23/2025,Santander,Pix
+Taxa bancária,Outros,126.48,08/11/2025,Santander,Cartão
+Multa,Outros,265.63,05/29/2025,Itaú,Dinheiro
+Multa,Outros,56.92,09/05/2025,Caixa,Pix
+Cinema,Lazer,81.37,05/25/2025,Nubank,Cartão
+Internet,Serviços,111.46,10/11/2025,Caixa,Dinheiro
+Conta de luz,"Moradia, Educação",186.47,10/13/2025,Itaú,Dinheiro
+Remédio,Saúde,121.5,11/06/2025,Bradesco,Dinheiro
+Condomínio,Moradia,233.92,10/05/2025,Itaú,Cartão
+Exame laboratorial,Saúde,213.96,09/29/2025,Caixa,Cartão
+Curso online,Educação,13.43,11/06/2025,Caixa,Dinheiro
+Consulta médica,Saúde,147.91,07/03/2025,Caixa,Pix
+Corrida Uber,Transporte,135.12,08/31/2025,Caixa,Pix
+Conta de luz,Moradia,281.52,08/31/2025,Santander,Cartão
+Compra de livro,Educação,140.69,05/25/2025,Caixa,Dinheiro
+Mensalidade,Educação,201.13,06/05/2025,Itaú,Pix
+Lanchonete,Alimentação,68.06,06/03/2025,Santander,Cartão
+Almoço restaurante,"Alimentação, Educação",188.57,10/14/2025,Santander,Cartão
+Show,Lazer,162.31,10/15/2025,Bradesco,Dinheiro
+Telefonia,Serviços,390.18,10/03/2025,Caixa,Dinheiro
+Lanchonete,Alimentação,88.43,05/26/2025,Santander,Cartão
+Jantar com amigos,Lazer,83.03,08/21/2025,Santander,Cartão
+Internet,Serviços,226.43,05/26/2025,Itaú,Cartão
+Consulta médica,Saúde,312.19,07/12/2025,Santander,Pix
+Condomínio,Moradia,117.6,06/27/2025,Nubank,Dinheiro
+Lavanderia,Serviços,393.83,07/08/2025,Nubank,Pix
+Almoço restaurante,Alimentação,19.28,10/15/2025,Caixa,Dinheiro
+Exame laboratorial,Saúde,155.84,10/07/2025,Nubank,Pix
+Táxi até o aeroporto,Transporte,120.04,05/10/2025,Itaú,Dinheiro
+Cinema,"Lazer, Moradia",52.03,11/03/2025,Caixa,Pix
+Remédio,"Saúde, Lazer",44.3,09/22/2025,Bradesco,Pix
+Condomínio,Moradia,109.96,07/28/2025,Santander,Dinheiro
+Exame laboratorial,Saúde,131.73,07/29/2025,Nubank,Pix
+Combustível,Transporte,273.42,06/01/2025,Nubank,Pix
+Compra no mercado,Alimentação,98.71,09/03/2025,Caixa,Dinheiro
+Consulta médica,Saúde,210.3,10/28/2025,Santander,Cartão
+Taxa bancária,Outros,243.42,10/10/2025,Caixa,Cartão
+Lanchonete,Alimentação,80.7,09/11/2025,Bradesco,Dinheiro
+Exame laboratorial,Saúde,64.01,10/10/2025,Caixa,Pix
+Aluguel,"Moradia, Serviços",145.16,07/11/2025,Caixa,Pix
+Mensalidade,Educação,433.17,05/19/2025,Bradesco,Pix
+Exame laboratorial,Saúde,144.73,09/24/2025,Nubank,Dinheiro
+Multa,"Outros, Alimentação",65.72,07/09/2025,Caixa,Cartão
+Almoço restaurante,Alimentação,181.37,06/29/2025,Bradesco,Dinheiro
+Assinatura streaming,Lazer,367.66,06/05/2025,Itaú,Pix
+Jantar com amigos,Lazer,92.23,09/26/2025,Bradesco,Cartão
+Taxa bancária,Outros,86.19,11/05/2025,Santander,Cartão
+Corrida Uber,Transporte,327.18,05/30/2025,Itaú,Pix
+Condomínio,Moradia,161.67,10/16/2025,Santander,Dinheiro
+Aluguel,Moradia,46.79,10/25/2025,Itaú,Cartão
+Remédio,Saúde,126.57,06/06/2025,Caixa,Dinheiro
+Lanchonete,Alimentação,195.9,07/08/2025,Nubank,Pix
+Lanchonete,Alimentação,43.91,07/05/2025,Caixa,Cartão
+Mensalidade,Educação,155.27,07/01/2025,Bradesco,Dinheiro
+Aluguel,Moradia,121.5,06/29/2025,Caixa,Dinheiro
+Lavanderia,"Serviços, Lazer",28.47,10/25/2025,Itaú,Pix
+Remédio,Saúde,231.0,08/10/2025,Bradesco,Dinheiro
+Telefonia,Serviços,39.79,08/06/2025,Bradesco,Pix
+Compra de livro,"Educação, Outros",99.26,06/04/2025,Itaú,Cartão
+Show,Lazer,24.73,08/20/2025,Bradesco,Dinheiro
+Multa,Outros,182.87,06/14/2025,Nubank,Dinheiro
+Remédio,Saúde,175.31,08/25/2025,Nubank,Pix
+Consulta médica,Saúde,148.43,07/25/2025,Nubank,Pix
+Mensalidade,Educação,10.55,06/06/2025,Itaú,Dinheiro
+Exame laboratorial,Saúde,33.93,06/03/2025,Itaú,Cartão
+Compra no mercado,"Alimentação, Serviços",24.39,07/26/2025,Santander,Cartão
+Doação,Outros,320.72,06/11/2025,Nubank,Pix
+Curso online,Educação,9.28,11/03/2025,Itaú,Dinheiro
+Internet,Serviços,95.29,07/14/2025,Nubank,Pix
+Combustível,Transporte,251.12,10/18/2025,Nubank,Pix
+Compra de livro,Educação,106.14,07/27/2025,Santander,Pix
+Passagem de ônibus,Transporte,104.83,05/25/2025,Itaú,Pix
+Condomínio,Moradia,46.28,08/31/2025,Caixa,Cartão
+Jantar com amigos,Lazer,83.21,07/04/2025,Nubank,Dinheiro
+Multa,Outros,237.78,08/30/2025,Caixa,Dinheiro
+Taxa bancária,Outros,305.44,10/30/2025,Bradesco,Pix
+Show,Lazer,57.83,10/17/2025,Itaú,Cartão
+Aluguel,Moradia,98.4,06/28/2025,Caixa,Dinheiro
+Taxa bancária,Outros,146.95,09/12/2025,Caixa,Dinheiro
+Remédio,Saúde,128.42,10/30/2025,Itaú,Pix
+Assinatura streaming,Lazer,52.08,08/04/2025,Caixa,Pix
+Compra no mercado,Alimentação,73.83,10/31/2025,Santander,Pix
+Internet,Serviços,22.61,11/03/2025,Caixa,Cartão
+Internet,Serviços,78.51,06/09/2025,Nubank,Dinheiro
+Multa,Outros,68.52,10/27/2025,Caixa,Dinheiro
+Almoço restaurante,Alimentação,121.74,08/03/2025,Santander,Pix
+Telefonia,Serviços,431.66,11/01/2025,Bradesco,Dinheiro
+Aluguel,Moradia,216.81,10/02/2025,Itaú,Pix
+Condomínio,Moradia,108.74,11/06/2025,Nubank,Cartão
+Assinatura streaming,Lazer,177.99,07/22/2025,Itaú,Pix
+Táxi até o aeroporto,Transporte,349.2,08/09/2025,Nubank,Dinheiro
+Corrida Uber,Transporte,123.46,11/05/2025,Nubank,Dinheiro
+Consulta médica,Saúde,157.75,05/26/2025,Bradesco,Dinheiro
+Cinema,Lazer,160.21,07/23/2025,Nubank,Cartão
+Jantar com amigos,Lazer,167.55,06/28/2025,Nubank,Cartão
+Internet,"Serviços, Outros",72.15,05/21/2025,Santander,Pix
+Multa,"Outros, Saúde",271.04,09/08/2025,Nubank,Pix
+Passagem de ônibus,Transporte,242.78,11/03/2025,Caixa,Dinheiro
+Conta de luz,Moradia,197.96,08/14/2025,Nubank,Cartão
+Almoço restaurante,Alimentação,238.39,10/13/2025,Itaú,Cartão
+Telefonia,Serviços,180.9,10/04/2025,Caixa,Pix
+Telefonia,"Serviços, Lazer",226.94,11/01/2025,Itaú,Cartão
+Exame laboratorial,Saúde,191.93,09/21/2025,Itaú,Dinheiro
+Curso online,"Educação, Saúde",277.49,08/05/2025,Caixa,Cartão
+Aluguel,Moradia,124.01,06/20/2025,Caixa,Cartão
+Taxa bancária,Outros,270.86,09/20/2025,Caixa,Cartão
+Condomínio,Moradia,350.87,05/20/2025,Itaú,Pix
+Almoço restaurante,Alimentação,111.41,07/05/2025,Caixa,Pix
+Exame laboratorial,Saúde,205.0,06/04/2025,Bradesco,Dinheiro
+Compra no mercado,"Alimentação, Saúde",186.26,08/28/2025,Itaú,Dinheiro
+Telefonia,Serviços,184.97,08/09/2025,Caixa,Pix
+Doação,"Outros, Alimentação",88.65,11/05/2025,Bradesco,Cartão
+Corrida Uber,Transporte,3.52,05/23/2025,Nubank,Cartão
+Aluguel,Moradia,91.59,06/16/2025,Caixa,Dinheiro
+Consulta médica,Saúde,80.53,05/13/2025,Nubank,Pix
+Curso online,Educação,100.51,09/13/2025,Bradesco,Cartão
+Condomínio,Moradia,48.1,08/07/2025,Santander,Dinheiro
+Lavanderia,"Serviços, Outros",70.12,07/18/2025,Itaú,Pix
+Telefonia,Serviços,90.05,11/03/2025,Itaú,Dinheiro
+Exame laboratorial,Saúde,60.79,05/11/2025,Nubank,Pix
+Padaria,"Alimentação, Moradia",213.24,07/27/2025,Santander,Pix
+Doação,Outros,94.13,05/25/2025,Caixa,Dinheiro
+Lavanderia,"Serviços, Educação",226.82,08/03/2025,Bradesco,Cartão
+Show,Lazer,255.97,07/08/2025,Nubank,Pix
+Corrida Uber,Transporte,304.22,06/18/2025,Nubank,Dinheiro
+Curso online,Educação,249.11,10/27/2025,Nubank,Dinheiro
+Compra de livro,Educação,83.24,07/24/2025,Caixa,Cartão
+Lavanderia,Serviços,10.5,07/22/2025,Itaú,Cartão
+Conta de luz,Moradia,190.27,11/03/2025,Bradesco,Dinheiro
+Multa,Outros,189.39,10/31/2025,Nubank,Cartão
+Compra de livro,Educação,37.88,09/22/2025,Santander,Cartão
+Remédio,"Saúde, Serviços",136.21,08/25/2025,Itaú,Pix
+Aluguel,Moradia,52.67,10/23/2025,Nubank,Cartão
+Compra de livro,Educação,232.05,08/16/2025,Caixa,Cartão
+Aluguel,Moradia,64.58,08/04/2025,Santander,Cartão
+Show,"Lazer, Moradia",68.65,10/29/2025,Santander,Pix
+Remédio,"Saúde, Outros",216.4,10/03/2025,Caixa,Cartão
+Corrida Uber,Transporte,198.01,07/01/2025,Itaú,Dinheiro
+Internet,Serviços,150.69,05/16/2025,Santander,Pix
+Almoço restaurante,Alimentação,437.54,08/26/2025,Santander,Dinheiro
+Multa,"Outros, Saúde",225.39,09/24/2025,Bradesco,Pix
+Almoço restaurante,Alimentação,56.23,07/24/2025,Caixa,Pix
+Padaria,Alimentação,203.82,09/13/2025,Caixa,Dinheiro
+Compra no mercado,Alimentação,118.36,09/03/2025,Nubank,Pix
+Cinema,Lazer,211.5,06/19/2025,Santander,Cartão
+Cinema,Lazer,182.2,09/11/2025,Bradesco,Pix
+Doação,Outros,89.55,06/22/2025,Bradesco,Pix
+Taxa bancária,Outros,100.24,07/15/2025,Nubank,Cartão
+Padaria,Alimentação,244.19,09/02/2025,Nubank,Cartão
+Consulta médica,Saúde,127.09,10/23/2025,Caixa,Pix
+Consulta médica,Saúde,232.08,10/05/2025,Itaú,Cartão
+Internet,Serviços,114.91,06/11/2025,Nubank,Dinheiro
+Curso online,"Educação, Lazer",238.13,07/10/2025,Caixa,Pix
+Show,Lazer,373.19,10/30/2025,Bradesco,Cartão
+Show,Lazer,142.73,08/04/2025,Santander,Dinheiro
+Aluguel,Moradia,89.79,07/16/2025,Santander,Cartão
+Telefonia,Serviços,190.99,06/12/2025,Itaú,Dinheiro
+Lavanderia,Serviços,132.08,10/21/2025,Santander,Cartão
+Mensalidade,"Educação, Outros",491.36,06/12/2025,Santander,Cartão
+Remédio,Saúde,271.08,08/25/2025,Itaú,Pix
+Conta de luz,Moradia,94.43,09/16/2025,Santander,Dinheiro
+Show,Lazer,138.82,05/14/2025,Caixa,Cartão
+Remédio,"Saúde, Alimentação",144.92,08/12/2025,Itaú,Dinheiro
+Almoço restaurante,Alimentação,218.98,10/23/2025,Itaú,Pix
+Curso online,Educação,183.68,07/09/2025,Itaú,Pix
+Doação,Outros,162.86,10/25/2025,Itaú,Cartão
+Exame laboratorial,Saúde,112.88,09/01/2025,Caixa,Cartão
+Lavanderia,Serviços,326.81,06/30/2025,Caixa,Pix
+Passagem de ônibus,Transporte,204.72,05/23/2025,Itaú,Pix
+Mensalidade,Educação,441.75,10/30/2025,Nubank,Pix
+Combustível,Transporte,22.03,07/07/2025,Bradesco,Pix
+Lavanderia,Serviços,65.59,07/10/2025,Itaú,Cartão
+Táxi até o aeroporto,Transporte,204.39,09/20/2025,Caixa,Cartão
+Show,Lazer,213.53,09/24/2025,Santander,Pix
+Compra no mercado,Alimentação,97.7,06/26/2025,Santander,Pix
+Show,"Lazer, Transporte",80.44,08/28/2025,Nubank,Dinheiro
+Doação,Outros,71.44,07/26/2025,Caixa,Pix
+Remédio,Saúde,84.89,07/30/2025,Caixa,Pix
+Passagem de ônibus,Transporte,57.32,06/07/2025,Caixa,Dinheiro
+Consulta médica,Saúde,198.2,09/12/2025,Bradesco,Pix
+Telefonia,Serviços,193.53,08/15/2025,Santander,Dinheiro
+Compra de livro,Educação,109.84,06/14/2025,Bradesco,Pix
+Passagem de ônibus,Transporte,146.27,07/13/2025,Nubank,Pix
+Jantar com amigos,Lazer,107.21,06/26/2025,Itaú,Pix
+Conta de luz,Moradia,96.99,07/10/2025,Santander,Pix
+Aluguel,Moradia,38.61,06/27/2025,Itaú,Pix
+Consulta médica,Saúde,140.8,05/15/2025,Santander,Dinheiro
+Corrida Uber,Transporte,103.48,07/12/2025,Caixa,Pix
+Passagem de ônibus,Transporte,104.37,09/08/2025,Itaú,Pix
+Curso online,Educação,19.66,08/08/2025,Nubank,Dinheiro
+Jantar com amigos,"Lazer, Alimentação",132.57,09/20/2025,Santander,Pix
+Assinatura streaming,"Lazer, Serviços",75.1,07/01/2025,Itaú,Cartão
+Táxi até o aeroporto,Transporte,118.67,10/21/2025,Santander,Cartão
+Padaria,Alimentação,315.83,05/17/2025,Bradesco,Cartão
+Aluguel,Moradia,153.54,08/31/2025,Santander,Cartão
+Taxa bancária,Outros,170.84,09/18/2025,Bradesco,Dinheiro
+Compra de livro,Educação,138.53,07/08/2025,Nubank,Cartão
+Conta de luz,Moradia,102.5,11/06/2025,Caixa,Pix
+Condomínio,Moradia,225.03,06/01/2025,Santander,Cartão
+Assinatura streaming,Lazer,99.02,05/27/2025,Itaú,Cartão
+Internet,Serviços,170.46,10/18/2025,Nubank,Cartão
+Lanchonete,Alimentação,223.72,07/19/2025,Santander,Pix
+Lanchonete,Alimentação,156.2,09/07/2025,Santander,Cartão
+Padaria,Alimentação,363.52,07/13/2025,Nubank,Dinheiro
+Multa,"Outros, Alimentação",138.31,06/08/2025,Nubank,Dinheiro
+Mensalidade,Educação,233.44,07/05/2025,Bradesco,Dinheiro
+Almoço restaurante,Alimentação,152.96,09/26/2025,Caixa,Cartão
+Consulta médica,"Saúde, Moradia",116.34,08/06/2025,Itaú,Dinheiro
+Almoço restaurante,Alimentação,181.85,05/14/2025,Itaú,Dinheiro
+Jantar com amigos,Lazer,27.29,09/27/2025,Caixa,Dinheiro
+Consulta médica,Saúde,161.16,09/26/2025,Nubank,Dinheiro
+Aluguel,"Moradia, Transporte",332.51,05/13/2025,Santander,Cartão
+Internet,Serviços,376.43,07/01/2025,Bradesco,Cartão
+Telefonia,"Serviços, Moradia",180.54,08/23/2025,Itaú,Dinheiro
+Curso online,Educação,76.32,09/05/2025,Nubank,Dinheiro
+Taxa bancária,Outros,219.23,08/20/2025,Bradesco,Dinheiro
+Almoço restaurante,Alimentação,380.09,10/11/2025,Nubank,Pix
+Condomínio,"Moradia, Saúde",267.13,07/05/2025,Itaú,Pix
+Doação,Outros,26.46,08/02/2025,Bradesco,Pix
+Jantar com amigos,Lazer,119.22,08/04/2025,Santander,Dinheiro
+Corrida Uber,Transporte,233.5,07/28/2025,Bradesco,Cartão
+Show,Lazer,85.37,05/12/2025,Bradesco,Pix
+Curso online,"Educação, Transporte",71.49,09/05/2025,Nubank,Cartão
+Multa,Outros,114.96,07/27/2025,Bradesco,Pix
+Multa,Outros,118.74,09/30/2025,Bradesco,Cartão
+Cinema,Lazer,143.11,10/31/2025,Bradesco,Pix
+Lanchonete,Alimentação,138.84,08/31/2025,Nubank,Cartão
+Lanchonete,Alimentação,186.79,07/31/2025,Caixa,Dinheiro
+Padaria,Alimentação,150.02,05/21/2025,Bradesco,Cartão
+Taxa bancária,Outros,141.7,05/14/2025,Caixa,Dinheiro
+Taxa bancária,Outros,182.18,05/17/2025,Bradesco,Cartão
+Doação,Outros,189.15,11/04/2025,Santander,Pix
+Conta de luz,Moradia,204.55,07/13/2025,Nubank,Pix
+Compra no mercado,Alimentação,119.62,05/21/2025,Caixa,Pix
+Táxi até o aeroporto,Transporte,167.17,05/16/2025,Nubank,Pix
+Multa,Outros,203.71,10/31/2025,Caixa,Dinheiro
+Táxi até o aeroporto,Transporte,109.41,09/16/2025,Nubank,Dinheiro
+Show,Lazer,112.91,06/24/2025,Santander,Cartão
+Táxi até o aeroporto,Transporte,213.41,05/31/2025,Caixa,Dinheiro
+Mensalidade,Educação,105.19,05/16/2025,Itaú,Dinheiro
+Conta de luz,Moradia,20.95,10/29/2025,Santander,Pix
+Compra no mercado,Alimentação,222.58,09/23/2025,Itaú,Cartão
+Remédio,Saúde,126.82,09/05/2025,Nubank,Pix
+Show,Lazer,71.72,07/08/2025,Bradesco,Cartão
+Jantar com amigos,Lazer,68.9,08/27/2025,Caixa,Pix
+Compra de livro,Educação,233.03,06/27/2025,Bradesco,Dinheiro
+Mensalidade,"Educação, Serviços",95.67,10/02/2025,Bradesco,Dinheiro
+Mensalidade,Educação,109.21,09/18/2025,Itaú,Pix
+Multa,"Outros, Saúde",146.07,08/30/2025,Caixa,Cartão
+Assinatura streaming,Lazer,290.8,05/29/2025,Nubank,Cartão
+Lanchonete,Alimentação,93.63,05/12/2025,Itaú,Pix
+Condomínio,Moradia,282.34,11/05/2025,Caixa,Pix
+Padaria,Alimentação,188.76,07/11/2025,Santander,Dinheiro
+Cinema,Lazer,248.96,06/24/2025,Bradesco,Cartão
+Consulta médica,Saúde,140.19,05/19/2025,Bradesco,Cartão
+Internet,Serviços,43.45,06/13/2025,Santander,Dinheiro
+Jantar com amigos,"Lazer, Alimentação",22.13,10/01/2025,Santander,Cartão
+Remédio,Saúde,183.48,08/10/2025,Bradesco,Dinheiro
+Mensalidade,"Educação, Lazer",83.16,10/26/2025,Nubank,Dinheiro
+Condomínio,Moradia,269.13,10/18/2025,Itaú,Dinheiro
+Compra de livro,Educação,82.46,08/05/2025,Bradesco,Dinheiro
+Conta de luz,Moradia,144.79,08/01/2025,Bradesco,Cartão
+Consulta médica,Saúde,142.91,09/11/2025,Santander,Dinheiro
+Multa,Outros,182.76,09/19/2025,Itaú,Dinheiro
+Assinatura streaming,Lazer,22.92,06/23/2025,Nubank,Cartão
+Exame laboratorial,Saúde,324.98,08/09/2025,Itaú,Cartão
+Passagem de ônibus,Transporte,51.07,11/01/2025,Nubank,Cartão
+Show,Lazer,12.22,06/30/2025,Nubank,Dinheiro
+Aluguel,Moradia,90.71,09/18/2025,Santander,Dinheiro
+Exame laboratorial,Saúde,117.82,07/19/2025,Nubank,Cartão
+Aluguel,Moradia,155.8,06/30/2025,Nubank,Pix
+Jantar com amigos,"Lazer, Transporte",208.02,10/29/2025,Itaú,Cartão
+Jantar com amigos,Lazer,161.33,08/15/2025,Itaú,Cartão
+Multa,Outros,56.49,06/08/2025,Bradesco,Dinheiro
+Conta de luz,Moradia,36.35,06/25/2025,Caixa,Dinheiro
+Compra no mercado,"Alimentação, Transporte",229.25,08/26/2025,Caixa,Cartão
+Exame laboratorial,Saúde,205.91,06/12/2025,Santander,Cartão
+Mensalidade,Educação,111.99,08/26/2025,Santander,Cartão
+Combustível,Transporte,399.62,07/18/2025,Bradesco,Dinheiro
+Aluguel,Moradia,144.83,07/07/2025,Nubank,Dinheiro
+Compra no mercado,Alimentação,302.67,05/23/2025,Bradesco,Dinheiro
+Lavanderia,Serviços,131.85,06/19/2025,Santander,Cartão
+Consulta médica,Saúde,216.53,09/07/2025,Bradesco,Pix
+Telefonia,Serviços,177.46,08/25/2025,Itaú,Pix
+Mensalidade,Educação,157.82,07/29/2025,Caixa,Cartão
+Corrida Uber,Transporte,116.29,09/07/2025,Bradesco,Dinheiro
+Combustível,Transporte,284.73,09/21/2025,Itaú,Cartão
+Exame laboratorial,Saúde,203.78,10/24/2025,Caixa,Pix
+Lavanderia,Serviços,144.62,07/10/2025,Caixa,Dinheiro
+Padaria,Alimentação,50.34,05/10/2025,Santander,Dinheiro
+Compra de livro,Educação,202.31,07/23/2025,Nubank,Pix
+Exame laboratorial,Saúde,108.73,07/18/2025,Bradesco,Pix
+Lanchonete,Alimentação,63.38,10/03/2025,Santander,Dinheiro
+Lavanderia,Serviços,59.82,10/01/2025,Santander,Dinheiro
+Telefonia,Serviços,210.39,08/26/2025,Caixa,Dinheiro
+Exame laboratorial,"Saúde, Lazer",102.79,06/11/2025,Caixa,Cartão
+Exame laboratorial,"Saúde, Lazer",218.04,07/07/2025,Santander,Cartão
+Curso online,Educação,88.79,07/22/2025,Caixa,Dinheiro
+Assinatura streaming,Lazer,190.86,09/25/2025,Itaú,Dinheiro
+Taxa bancária,Outros,117.74,08/12/2025,Nubank,Dinheiro
+Aluguel,Moradia,199.21,09/06/2025,Caixa,Dinheiro
+Internet,Serviços,329.62,07/05/2025,Nubank,Pix
+Show,Lazer,183.37,10/18/2025,Itaú,Cartão
+Mensalidade,Educação,199.85,10/12/2025,Santander,Pix
+Lanchonete,Alimentação,126.06,10/04/2025,Itaú,Cartão
+Conta de luz,Moradia,225.4,09/09/2025,Itaú,Dinheiro
+Compra de livro,Educação,61.92,08/19/2025,Nubank,Pix
+Remédio,"Saúde, Transporte",429.93,05/11/2025,Itaú,Dinheiro
+Padaria,Alimentação,144.95,08/31/2025,Caixa,Dinheiro
+Mensalidade,Educação,120.38,07/07/2025,Bradesco,Pix
+Compra de livro,"Educação, Serviços",149.77,05/23/2025,Nubank,Cartão
+Mensalidade,"Educação, Lazer",246.88,07/27/2025,Itaú,Pix
+Lanchonete,"Alimentação, Serviços",81.66,09/06/2025,Bradesco,Dinheiro
+Táxi até o aeroporto,Transporte,179.12,06/29/2025,Bradesco,Pix
+Show,Lazer,126.85,11/02/2025,Santander,Cartão
+Padaria,Alimentação,144.98,07/26/2025,Bradesco,Dinheiro
+Curso online,Educação,110.98,10/07/2025,Nubank,Pix
+Taxa bancária,Outros,149.43,09/04/2025,Santander,Cartão
+Combustível,"Transporte, Outros",152.09,10/20/2025,Itaú,Cartão
+Cinema,Lazer,146.16,10/19/2025,Caixa,Pix
+Conta de luz,Moradia,150.13,08/05/2025,Itaú,Dinheiro
+Assinatura streaming,Lazer,212.73,06/27/2025,Itaú,Cartão
+Combustível,Transporte,107.42,10/22/2025,Bradesco,Pix
+Combustível,Transporte,202.71,05/24/2025,Itaú,Cartão
+Condomínio,"Moradia, Lazer",281.39,05/11/2025,Bradesco,Cartão
+Doação,Outros,121.05,10/07/2025,Caixa,Dinheiro
+Conta de luz,Moradia,203.35,06/19/2025,Bradesco,Cartão
+Passagem de ônibus,Transporte,138.35,07/27/2025,Caixa,Cartão
+Internet,Serviços,353.4,09/24/2025,Bradesco,Pix
+Cinema,Lazer,67.13,09/07/2025,Santander,Pix
+Exame laboratorial,Saúde,167.98,08/02/2025,Bradesco,Cartão
+Almoço restaurante,Alimentação,366.27,09/28/2025,Bradesco,Pix
+Condomínio,Moradia,182.02,05/18/2025,Bradesco,Cartão
+Combustível,Transporte,61.32,10/25/2025,Itaú,Cartão
+Remédio,Saúde,178.64,07/15/2025,Santander,Cartão
+Compra de livro,Educação,158.98,09/23/2025,Nubank,Dinheiro
+Assinatura streaming,Lazer,120.98,07/21/2025,Itaú,Dinheiro
+Cinema,Lazer,48.9,06/20/2025,Itaú,Dinheiro
+Padaria,"Alimentação, Educação",204.83,10/29/2025,Santander,Pix
+Show,Lazer,116.97,10/12/2025,Bradesco,Pix
+Exame laboratorial,Saúde,130.28,10/15/2025,Caixa,Cartão
+Internet,"Serviços, Outros",61.8,09/13/2025,Caixa,Pix
+Compra de livro,"Educação, Serviços",34.11,06/15/2025,Bradesco,Dinheiro
+Conta de luz,Moradia,93.38,08/20/2025,Nubank,Dinheiro
+Compra de livro,Educação,54.05,05/19/2025,Bradesco,Pix
+Remédio,"Saúde, Lazer",83.08,10/18/2025,Nubank,Pix
+Lanchonete,Alimentação,105.81,06/09/2025,Itaú,Cartão
+Mensalidade,"Educação, Moradia",329.34,06/14/2025,Santander,Dinheiro
+Exame laboratorial,Saúde,136.59,08/16/2025,Bradesco,Dinheiro
+Assinatura streaming,"Lazer, Alimentação",263.03,08/19/2025,Santander,Dinheiro
+Compra de livro,"Educação, Outros",94.49,10/20/2025,Nubank,Dinheiro
+Curso online,Educação,175.73,10/18/2025,Nubank,Dinheiro
+Remédio,"Saúde, Transporte",269.26,08/19/2025,Caixa,Cartão
+Lavanderia,Serviços,408.92,09/20/2025,Itaú,Dinheiro
+Consulta médica,Saúde,327.16,06/06/2025,Itaú,Dinheiro
+Combustível,Transporte,135.7,09/18/2025,Itaú,Cartão
+Táxi até o aeroporto,Transporte,186.67,09/12/2025,Santander,Pix
+Assinatura streaming,Lazer,139.18,10/20/2025,Caixa,Pix
+Passagem de ônibus,"Transporte, Educação",197.45,08/04/2025,Nubank,Dinheiro
+Compra de livro,Educação,257.35,08/18/2025,Nubank,Dinheiro
+Passagem de ônibus,Transporte,82.51,10/15/2025,Santander,Dinheiro
+Padaria,"Alimentação, Educação",169.37,07/26/2025,Santander,Cartão
+Corrida Uber,Transporte,164.78,11/03/2025,Caixa,Pix
+Remédio,Saúde,201.6,06/18/2025,Bradesco,Pix
+Telefonia,Serviços,113.27,09/25/2025,Santander,Cartão
+Combustível,Transporte,35.99,08/22/2025,Itaú,Pix
+Compra de livro,Educação,118.15,06/14/2025,Nubank,Cartão
+Taxa bancária,Outros,296.09,11/02/2025,Santander,Pix
+Padaria,Alimentação,216.12,06/15/2025,Santander,Cartão
+Assinatura streaming,Lazer,215.71,10/09/2025,Nubank,Cartão
+Multa,Outros,166.26,06/20/2025,Nubank,Dinheiro
+Compra no mercado,Alimentação,196.51,10/25/2025,Caixa,Cartão
+Aluguel,Moradia,49.47,06/04/2025,Bradesco,Dinheiro
+Compra no mercado,"Alimentação, Outros",163.7,10/12/2025,Santander,Cartão
+Mensalidade,Educação,33.62,08/11/2025,Caixa,Pix
+Cinema,Lazer,102.65,07/05/2025,Nubank,Cartão
+Almoço restaurante,Alimentação,19.93,05/16/2025,Itaú,Cartão
+Almoço restaurante,Alimentação,161.31,06/28/2025,Bradesco,Cartão
+Mensalidade,Educação,48.28,08/06/2025,Nubank,Dinheiro
+Passagem de ônibus,Transporte,261.08,09/09/2025,Nubank,Dinheiro
+Combustível,"Transporte, Lazer",184.74,10/03/2025,Santander,Cartão
+Táxi até o aeroporto,Transporte,38.61,05/21/2025,Itaú,Pix
+Passagem de ônibus,"Transporte, Alimentação",163.31,10/22/2025,Bradesco,Pix
+Padaria,Alimentação,124.81,09/18/2025,Santander,Pix
+Compra no mercado,Alimentação,156.03,09/18/2025,Itaú,Cartão
+Mensalidade,Educação,184.92,11/06/2025,Itaú,Dinheiro
+Curso online,Educação,25.07,07/01/2025,Nubank,Cartão
+Curso online,Educação,186.97,08/05/2025,Itaú,Dinheiro
+Condomínio,Moradia,418.67,08/14/2025,Nubank,Cartão
+Condomínio,Moradia,304.49,10/29/2025,Caixa,Cartão
+Telefonia,"Serviços, Moradia",198.15,06/26/2025,Nubank,Cartão
+Conta de luz,Moradia,41.37,07/13/2025,Itaú,Cartão
+Remédio,Saúde,54.1,06/02/2025,Caixa,Dinheiro
+Aluguel,Moradia,213.13,10/20/2025,Caixa,Dinheiro
+Telefonia,"Serviços, Moradia",134.55,11/04/2025,Nubank,Dinheiro
+Aluguel,Moradia,226.78,09/21/2025,Santander,Dinheiro
+Remédio,Saúde,192.92,05/10/2025,Itaú,Pix
+Multa,Outros,118.46,10/25/2025,Santander,Pix
+Lanchonete,Alimentação,299.35,05/16/2025,Bradesco,Dinheiro
+Lavanderia,Serviços,159.22,11/03/2025,Bradesco,Dinheiro
+Lanchonete,Alimentação,24.71,09/02/2025,Nubank,Pix
+Assinatura streaming,Lazer,274.36,09/08/2025,Nubank,Pix
+Combustível,Transporte,344.41,09/16/2025,Itaú,Cartão
+Conta de luz,Moradia,79.14,06/12/2025,Bradesco,Dinheiro
+Exame laboratorial,Saúde,71.25,08/17/2025,Caixa,Pix
+Lanchonete,Alimentação,205.6,10/26/2025,Bradesco,Cartão
+Telefonia,Serviços,41.8,08/04/2025,Santander,Pix
+Doação,Outros,34.07,08/26/2025,Caixa,Cartão
+Combustível,Transporte,121.44,05/23/2025,Bradesco,Dinheiro
+Telefonia,Serviços,325.36,05/29/2025,Bradesco,Cartão
+Almoço restaurante,"Alimentação, Saúde",66.08,07/04/2025,Nubank,Pix
+Doação,Outros,189.34,08/14/2025,Santander,Pix
+Táxi até o aeroporto,Transporte,407.93,11/04/2025,Caixa,Pix
+Lanchonete,Alimentação,256.61,08/04/2025,Santander,Dinheiro
+Remédio,Saúde,138.08,07/17/2025,Itaú,Dinheiro
+Internet,Serviços,119.53,09/22/2025,Itaú,Pix
+Lavanderia,Serviços,301.59,10/29/2025,Itaú,Dinheiro
+Internet,Serviços,193.73,10/18/2025,Itaú,Pix
+Show,"Lazer, Educação",237.71,06/07/2025,Bradesco,Pix
+Lavanderia,Serviços,62.8,09/27/2025,Nubank,Cartão
+Mensalidade,"Educação, Saúde",98.2,07/05/2025,Bradesco,Pix
+Internet,Serviços,59.34,10/22/2025,Nubank,Pix
+Remédio,Saúde,210.15,06/15/2025,Bradesco,Cartão
+Jantar com amigos,Lazer,37.36,09/30/2025,Bradesco,Dinheiro
+Multa,Outros,142.1,09/22/2025,Nubank,Pix
+Almoço restaurante,"Alimentação, Educação",475.05,08/14/2025,Caixa,Dinheiro
+Conta de luz,Moradia,162.21,10/29/2025,Nubank,Cartão
+Aluguel,Moradia,108.79,08/01/2025,Nubank,Dinheiro
+Almoço restaurante,Alimentação,66.54,07/04/2025,Bradesco,Dinheiro
+Multa,Outros,106.29,09/06/2025,Caixa,Dinheiro
+Compra no mercado,"Alimentação, Moradia",113.47,07/17/2025,Santander,Dinheiro
+Compra no mercado,Alimentação,325.9,07/23/2025,Bradesco,Pix
+Corrida Uber,Transporte,124.04,10/07/2025,Santander,Dinheiro
+Passagem de ônibus,Transporte,96.68,08/29/2025,Bradesco,Pix
+Lanchonete,Alimentação,110.35,07/31/2025,Santander,Pix
+Aluguel,Moradia,103.08,08/28/2025,Santander,Dinheiro
+Conta de luz,Moradia,81.0,08/24/2025,Caixa,Dinheiro
+Padaria,Alimentação,252.04,05/20/2025,Itaú,Pix
+Multa,Outros,97.07,06/18/2025,Santander,Cartão
+Cinema,Lazer,61.2,08/11/2025,Caixa,Pix
+Conta de luz,Moradia,148.59,06/13/2025,Bradesco,Dinheiro
+Compra de livro,Educação,160.29,09/16/2025,Caixa,Pix
+Almoço restaurante,Alimentação,100.06,09/26/2025,Bradesco,Pix
+Exame laboratorial,Saúde,245.87,10/12/2025,Caixa,Cartão
+Taxa bancária,Outros,258.78,05/14/2025,Santander,Cartão
+Combustível,Transporte,248.7,06/12/2025,Caixa,Cartão
+Corrida Uber,Transporte,56.75,07/28/2025,Nubank,Pix
+Compra no mercado,Alimentação,144.59,08/15/2025,Nubank,Cartão
+Taxa bancária,Outros,9.11,10/28/2025,Bradesco,Pix
+Almoço restaurante,Alimentação,217.41,07/08/2025,Itaú,Cartão
+Mensalidade,Educação,169.36,06/08/2025,Caixa,Dinheiro
+Táxi até o aeroporto,"Transporte, Alimentação",180.65,06/17/2025,Bradesco,Dinheiro
