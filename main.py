@@ -1,4 +1,3 @@
-from common.df import df
 from core.data_preparation import validar_padrao_df, transformar_df
 from core.menus import menu
 
