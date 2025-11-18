@@ -24,4 +24,12 @@ Cenário erro:
 - Dtype inválido da coluna Fonte Pagamento.
 """
 
-df = pd.read_csv(caminho_arquivo)
+if not caminho_arquivo[-4:] == ".csv":
+    print("[Erro] O arquivo especificado precisa ter a extensão '.csv'.")
+    exit(0)
+else:
+    try:
+        df = pd.read_csv(caminho_arquivo)
+    except:
+        print("[Erro] Falha ao carregar arquivo especificado.")
+        exit(0)
