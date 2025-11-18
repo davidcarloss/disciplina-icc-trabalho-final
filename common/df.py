@@ -26,10 +26,10 @@ Cenário erro:
 
 if not caminho_arquivo[-4:] == ".csv":
     print("[Erro] O arquivo especificado precisa ter a extensão '.csv'.")
-    exit(0)
+    exit(1)
 else:
     try:
         df = pd.read_csv(caminho_arquivo)
     except:
         print("[Erro] Falha ao carregar arquivo especificado.")
-        exit(0)
+        exit(1)
